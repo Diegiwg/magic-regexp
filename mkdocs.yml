@@ -1,0 +1,14 @@
+site_name: Magic Regexp
+repo_url: https://github.com/Diegiwg/magic-regexp
+repo_name: Diegiwg/magic-regexp
+edit_uri: tree/master/docs
+
+theme:
+    name: material
+    language: pt-BR
+
+plugins:
+    - mkdocstrings:
+        handlers:
+            python:
+                paths: [magic_regexp]
