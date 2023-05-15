@@ -1,4 +1,4 @@
-from lib.builder import Builder
+from src.builder import Builder
 
 builder = Builder()
 
